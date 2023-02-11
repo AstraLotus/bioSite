@@ -6,6 +6,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Open Sans', sans-serif;
       background-color: #F5F5F5;
@@ -26,6 +29,7 @@
       margin: 0;
       color: #FFFFFF;
       font-size: 36px;
+      font-family: 'Righteous', cursive;
     }
     
     header nav {
@@ -39,10 +43,31 @@
       text-decoration: none;
       color: #FFFFFF;
       font-size: 18px;
+      transition: background-color 0.2s ease-in-out;
     }
     
     header nav a:hover {
-      color: #F5F5F5;
+      background-color: #FFFFFF;
+      color: #333333;
+    }
+    
+    .main-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .main-content h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+    
+    .main-content img {
+      width: 100%;
+      max-width: 600px;
+      margin: 40px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
     footer {
@@ -71,18 +96,27 @@
   </header>
   <div>
   <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="hobbies.html">Hobbies</a>
+    </nav>
     <h1>Rigging at the Moody Center</h1>
-    <p>
-      Rigging is a critical component of the entertainment industry, providing the support and structure needed to bring events to life. Riggers are responsible for the design, installation, and maintenance of rigging systems that support lighting, sound, and other equipment used in productions. It’s a complex and demanding field that requires a combination of technical expertise and creative problem-solving skills. The Moody Center in Austin, Texas is a premier performing arts venue that hosts concerts, theater productions, and other events. It boasts cutting-edge technology and facilities, making it a dynamic and exciting place to work for riggers. 
-    </p>
-      <img src="HIPAU_MoodyCenter_02_RyanGobuty_220918-1024x557.jpg" alt="Moody Center">
-    <p>
-      Despite the challenges, the rewards of working as a rigger are numerous. Rigging is a dynamic and exciting field that offers opportunities for growth, creativity, and fulfillment. The Moody Center in Austin provides riggers with challenging projects and state-of-the-art facilities, allowing them to make a significant impact on the entertainment industry. 
-    </p>
+  </header>
+  <main>
+    <div class="container">
+      <p class="intro-text">
+        Rigging is a critical component of the entertainment industry, providing the support and structure needed to bring events to life. Riggers are responsible for the design, installation, and maintenance of rigging systems that support lighting, sound, and other equipment used in productions. It’s a complex and demanding field that requires a combination of technical expertise and creative problem-solving skills. The Moody Center in Austin, Texas is a premier performing arts venue that hosts concerts, theater productions, and other events. It boasts cutting-edge technology and facilities, making it a dynamic and exciting place to work for riggers. 
+      </p>
+      <img class="featured-img" src="HIPAU_MoodyCenter_02_RyanGobuty_220918-1024x557.jpg" alt="Moody Center">
+      <p class="body-text">
+        Despite the challenges, the rewards of working as a rigger are numerous. Rigging is a dynamic and exciting field that offers opportunities for growth, creativity, and fulfillment. The Moody Center in Austin provides riggers with challenging projects and state-of-the-art facilities, allowing them to make a significant impact on the entertainment industry. 
+      </p>
     </div>
-    <footer>
+  </main>
+  <footer>
     <p>AstralLotus#3381</p>
   </footer>
-  </body>
-  
+</body>
 </html>
