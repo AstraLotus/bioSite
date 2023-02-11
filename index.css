@@ -11,6 +11,7 @@ header {
 }
 
 header nav a {
+  font-family: 'Righteous', cursive;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
@@ -20,6 +21,7 @@ header nav a {
 }
 
 header a {
+  font-family: 'Righteous', cursive;
   color: #FFFFFF;
   text-decoration: none;
   font-size: 18px;
@@ -48,6 +50,7 @@ p {
 }
 
 footer {
+  font-family: 'Righteous', cursive;
   background-color: #333333;
   color: #FFFFFF;
   padding: 20px 0;
