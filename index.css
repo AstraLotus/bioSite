@@ -1,49 +1,56 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #F5F5F5;
-  color: #333333;
+  background-color: #F8EDE3;
+  color: #7D6E83; 
   text-align: center;
 }
 
+/* Header styles */
 header {
-  background-color: #333333;
+  background-color: #DFD3C3; 
   padding: 20px 0;
 }
 
+/* Link styles within header */
 header nav a {
   font-family: 'Righteous', cursive;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #D0B8A8; 
     font-size: 18px;
     width: 70px;
 }
 
+/* Link styles for header */
 header a {
   font-family: 'Righteous', cursive;
-  color: #FFFFFF;
+  color: #D0B8A8; 
   text-decoration: none;
   font-size: 18px;
   margin: 0 20px;
 }
 
+/* Hover styles for header links */
 header a:hover {
-  color: #F5F5F5;
+  color: #F8EDE3; 
 }
 
+/* Container styles */
 .container {
   max-width: 900px;
   margin: 80px auto;
   text-align: left;
 }
 
+/* H1 styles */
 h1 {
   font-family: 'Righteous', cursive;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
+/* Paragraph styles */
 p {
   font-family: 'Righteous', cursive;
   font-size: 18px;
@@ -51,14 +58,16 @@ p {
   margin-bottom: 40px;
 }
 
+/* Footer styles */
 footer {
   font-family: 'Righteous', cursive;
-  background-color: #333333;
-  color: #FFFFFF;
+  background-color: #DFD3C3; 
+  color: #7D6E83; 
   padding: 20px 0;
   font-size: 18px;
 }
 
+/* Paragraph styles for footer */
 footer p {
   margin: 0;
 }
