@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>CSD 340 Web Development with HTML and CSS</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="hobbies.html">Hobbies</a>
+    </nav>
+  </header>
+    <div class="container">
+      <p class="intro-text">
+      This biosite is a project for CSD340, highlighting Evan's expertise in rigging and providing a resource for those interested in learning more.
+      </p>
+      <h2>Contributors:</h2>
+      <ul>
+        <li>Professor: Chris Soriano</li>
+        <li>Student: Zoey Naizer</li>
+      </ul>
+      <footer>
+      <a href="AstralLotus#3381.html"</a>
+      </footer>
+      </body>
+</html>
