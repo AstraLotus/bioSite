@@ -7,15 +7,21 @@
   <title>Image Gallery</title>
   <script>
     function showPopup(img) {
-      var popup = document.getElementById("popup");
-      popup.style.display = "block";
-      popup.querySelector("img").src = img.src;
-    }
+  var popup = document.getElementById("popup");
+  popup.style.display = "block";
+  popup.querySelector("img").src = img.src;
 
-    function closePopup() {
-      var popup = document.getElementById("popup");
-      popup.style.display = "none";
+  popup.addEventListener("click", function(event) {
+    if (event.target === popup) {
+      closePopup();
     }
+  });
+}
+
+function closePopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "none";
+}
   </script>
 </head>
 <body>
