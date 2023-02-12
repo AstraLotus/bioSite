@@ -67,9 +67,9 @@ header a:hover {
   max-width: 900px;
   margin: 80px auto;
   text-align: left;
-  border: 2px solid #393E46;
+  border: 5px solid #EEEEEE;
   padding: 40px;
-  background-color: #EEEEEE;
+  background-color: #D4D4D4;
 }
 
 .featured-img {
@@ -96,7 +96,7 @@ p {
 
 footer {
   font-family: 'Righteous', cursive;
-  background-color: #393E46;
+  background-color: #EEEEEE;
   color: #EEEEEE;
   padding: 20px 0;
   font-size: 18px;
