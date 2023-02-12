@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Image Gallery</title>
+</head>
+<body>
+<header>
+  <h1>Image Gallery</h1>
+  <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="hobbies.html">Hobbies</a>
+    </nav>
+  </header>
+  <div class="image-container">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+    <img src="image5.jpg" alt="Image 5">
+  </div>
+  <footer>
+  <nav>
+<a href="astral_lotus.html">AstralLotus#3381</a>
+  </nav>
+</footer>
+</body>
+</html>
