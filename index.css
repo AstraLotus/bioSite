@@ -50,6 +50,7 @@ header a:hover {
 }
 
 .container {
+  border-radius: 5px;
   max-width: 900px;
   margin: 80px auto;
   text-align: left;
