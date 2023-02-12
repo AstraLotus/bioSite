@@ -55,6 +55,13 @@ header a:hover {
   padding: 40px;
 }
 
+.featured-img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
 h1 {
   font-family: 'Righteous', cursive;
   font-size: 36px;
