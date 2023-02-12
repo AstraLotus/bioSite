@@ -5,6 +5,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <title>Image Gallery</title>
+  <script>
+    function showImage(img) {
+  const popup = document.getElementById("popup");
+  const fullSizeImage = document.getElementById("full-size-image");
+  fullSizeImage.src = img.src;
+  popup.style.display = "block";
+}
+
+function hideImage() {
+  const popup = document.getElementById("popup");
+  popup.style.display = "none";
+}
+  </script>
 </head>
 <body>
 <header>
