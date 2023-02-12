@@ -28,7 +28,7 @@ header nav a {
 }
 
 header nav a:hover {
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: #D0B8A8;
   color: #fff;
   cursor: pointer;
@@ -44,7 +44,7 @@ header a {
 }
 
 header a:hover {
-  border-radius: 5px;
+  border-radius: 50px;
   color: #7D6E83;
   cursor: pointer;
 }
@@ -89,7 +89,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
 footer p {
   margin: 0;
 }
