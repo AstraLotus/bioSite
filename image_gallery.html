@@ -6,42 +6,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <title>Image Gallery</title>
   <script>
-function showPopup(img) {
-  var popup = document.getElementById("popup");
-  popup.style.display = "block";
-  popup.querySelector("img").src = img.src;
-}
+    function showPopup(img) {
+      var popup = document.getElementById("popup");
+      popup.style.display = "block";
+      popup.querySelector("img").src = img.src;
+    }
 
-function closePopup() {
-  var popup = document.getElementById("popup");
-  popup.style.display = "none";
-}
+    function closePopup() {
+      var popup = document.getElementById("popup");
+      popup.style.display = "none";
+    }
+  </script>
 </head>
 <body>
-<header>
-  <h1>Image Gallery</h1>
-  <nav>
+  <header>
+    <h1>Image Gallery</h1>
+    <nav>
       <a href="index.html">Home</a>
       <a href="image_gallery.html">Image Gallery</a>
       <a href="about.html">About</a>
       <a href="hobbies.html">Hobbies</a>
     </nav>
   </header>
-<div class="image-gallery">
-  <img src="image1.jpg" class="thumbnail" onclick="showImage(this)">
-  <img src="image2.jpg" class="thumbnail" onclick="showImage(this)">
-  <img src="image3.jpg" class="thumbnail" onclick="showImage(this)">
-  <img src="image4.jpg" class="thumbnail" onclick="showImage(this)">
-  <img src="image5.jpg" class="thumbnail" onclick="showImage(this)">
-</div>
-<div id="popup" class="popup">
-  <img id="full-size-image" src="">
-  <button id="close-button" onclick="hideImage()">X</button>
-</div>
+  <div class="image-gallery">
+    <img src="image1.jpg" class="thumbnail" onclick="showPopup(this)">
+    <img src="image2.jpg" class="thumbnail" onclick="showPopup(this)">
+    <img src="image3.jpg" class="thumbnail" onclick="showPopup(this)">
+    <img src="image4.jpg" class="thumbnail" onclick="showPopup(this)">
+    <img src="image5.jpg" class="thumbnail" onclick="showPopup(this)">
+  </div>
+  <div id="popup" class="popup">
+    <img id="full-size-image" src="">
+    <button id="close-button" onclick="closePopup()">X</button>
+  </div>
   <footer>
-  <nav>
-<a href="astral_lotus.html">AstralLotus#3381</a>
-  </nav>
-</footer>
+    <nav>
+      <a href="astral_lotus.html">AstralLotus#3381</a>
+    </nav>
+  </footer>
 </body>
 </html>
+
