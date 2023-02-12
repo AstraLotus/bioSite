@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="image_gallery.css">
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <title>Image Gallery</title>
@@ -11,6 +11,7 @@
   <h1>Image Gallery</h1>
   <nav>
       <a href="index.html">Home</a>
+      <a href="image_gallery.html">Image Gallery</a>
       <a href="about.html">About</a>
       <a href="hobbies.html">Hobbies</a>
     </nav>
