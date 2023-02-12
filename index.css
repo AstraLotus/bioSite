@@ -1,13 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #7D6E83;
-  color: #7D6E83;
+  background-color: #393E46;
+  color: #EEEEEE;
   text-align: center;
 }
 
 header {
   font-family: 'Righteous', cursive;
-  background-color: #D0B8A8;
+  background-color: #222831;
   padding: 20px 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -16,47 +16,12 @@ header {
   position: relative;
 }
 
-header a {
-  font-family: 'Righteous', cursive;
-  color: #7D6E83;
-  text-decoration: none;
-  font-size: 24px;
-  margin: 0 20px;
-  position: relative;
-  z-index: 1;
-  transition: all 0.3s ease;
-}
-
-header a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #D0B8A8;
-  border-radius: 5px;
-  z-index: -1;
-  transform: scale(0);
-  transition: transform 0.3s ease;
-}
-
-header a:hover::before {
-  transform: scale(1);
-}
-
-header a:hover {
-  border-radius: 5px;
-  color: #F2CAC1;
-  cursor: pointer;
-}
-
 header nav a {
   font-family: 'Righteous', cursive;
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: #7D6E83;
+  color: #EEEEEE;
   font-size: 18px;
   width: 70px;
   text-align: center;
@@ -64,9 +29,34 @@ header nav a {
 }
 
 header nav a:hover {
+  color: #00ADB5;
+  cursor: pointer;
+}
+
+header a {
+  font-family: 'Righteous', cursive;
+  color: #EEEEEE;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 20px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+header a:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00ADB5;
   border-radius: 5px;
-  background-color: #D0B8A8;
-  color: #F2CAC1;
+  z-index: -1;
+}
+
+header a:hover {
+  color: #EEEEEE;
   cursor: pointer;
 }
 
@@ -75,9 +65,9 @@ header nav a:hover {
   max-width: 900px;
   margin: 80px auto;
   text-align: left;
-  border: 2px solid #DFD3C3;
+  border: 2px solid #00ADB5;
   padding: 40px;
-  background-color: #DFD3C3;
+  background-color: #EEEEEE;
 }
 
 .featured-img {
@@ -92,6 +82,7 @@ h1 {
   font-size: 36px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #00ADB5;
 }
 
 p {
@@ -100,6 +91,15 @@ p {
   line-height: 1.5;
   margin-bottom: 40px;
 }
-footer p {
+
+footer {
+  font-family: 'Righteous', cursive;
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 20px 0;
+  font-size: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
   margin: 0;
 }
