@@ -13,6 +13,42 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+header a {
+  font-family: 'Righteous', cursive;
+  color: #7D6E83;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 20px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+header a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #D0B8A8;
+  border-radius: 5px;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+header a:hover::before {
+  transform: scale(1);
+}
+
+header a:hover {
+  border-radius: 5px;
+  color: #F2CAC1;
+  cursor: pointer;
 }
 
 header nav a {
@@ -32,49 +68,6 @@ header nav a:hover {
   background-color: #D0B8A8;
   color: #F2CAC1;
   cursor: pointer;
-  position: relative;
-}
-
-header nav a:hover:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-  background-color: #F2CAC1;
-  z-index: -1;
-}
-
-header a {
-  font-family: 'Righteous', cursive;
-  color: #D0B8A8;
-  text-decoration: none;
-  font-size: 24px;
-  margin: 0 20px;
-  transition: all 0.3s ease;
-}
-
-header a:hover {
-  border-radius: 5px;
-  color: #F2CAC1;
-  cursor: pointer;
-  position: relative;
-}
-
-header a:hover:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-  background-color: #F2CAC1;
-  z-index: -1;
 }
 
 .container {
@@ -107,19 +100,6 @@ p {
   line-height: 1.5;
   margin-bottom: 40px;
 }
-
-footer {
-  font-family: 'Righteous', cursive;
-  background-color: #D0B8A8;
-  color: #7D6E83;
-  padding: 20px 0;
-  font-size: 18px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 footer p {
   margin: 0;
 }
